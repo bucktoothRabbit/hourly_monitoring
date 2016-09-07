@@ -3,25 +3,24 @@
 # @Author  : sunyzh
 import math
 
-
-class Solver(object):
+class Solver():
+    """ this a class """
 
     def __init__(self, name, age):
+        """ Constructor for class Solver """
         self.name = name
         self.age = age
 
     def print_string(self):
-        for i in range(1,5):
+        print "hello %s, and your age is %s" % (self.name, self.age)
 
-            try:
-                math.acos(30)
-                num = i
-            except:
-                pass
+class Solver2():
+    """  """
 
+    def __init__(self, ):
+        """ Constructor for class Solver2 """
 
-
-            print "hello solver..%s,%d" % (self.name, self.age)
+        
 
 
 if __name__ == '__main__':
